@@ -1,0 +1,16 @@
+{
+  "name": "mind-wandering-server",
+  "version": "1.0.0",
+  "description": "The websocket server that handles all connections for the mind-wandering experiment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Sullivan",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.4.6"
+  },
+  "type": "module"
+}
